@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98BD730F1F04ACEC0091B67E /* libSoSoCamSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98BD73081F04ACEC0091B67E /* libSoSoCamSDK.a */; };
+		98BD73101F04ACEC0091B67E /* SoSoCamSDKBundle.Bundle in Resources */ = {isa = PBXBuildFile; fileRef = 98BD73091F04ACEC0091B67E /* SoSoCamSDKBundle.Bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		98BD72EB1F04ACB30091B67E /* SoSoSDKLatest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoSoSDKLatest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98BD73051F04ACEC0091B67E /* IPCam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPCam.h; sourceTree = "<group>"; };
+		98BD73061F04ACEC0091B67E /* IPCamMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPCamMgr.h; sourceTree = "<group>"; };
+		98BD73071F04ACEC0091B67E /* IPCamVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPCamVideoView.h; sourceTree = "<group>"; };
+		98BD73081F04ACEC0091B67E /* libSoSoCamSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSoSoCamSDK.a; sourceTree = "<group>"; };
+		98BD73091F04ACEC0091B67E /* SoSoCamSDKBundle.Bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SoSoCamSDKBundle.Bundle; sourceTree = "<group>"; };
+		98BD730A1F04ACEC0091B67E /* SoundWaveWifiSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundWaveWifiSetting.h; sourceTree = "<group>"; };
+		98BD730B1F04ACEC0091B67E /* Storage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Storage.h; sourceTree = "<group>"; };
+		98BD730C1F04ACEC0091B67E /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		98BD730D1F04ACEC0091B67E /* WebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebService.h; sourceTree = "<group>"; };
+		98BD730E1F04ACEC0091B67E /* WiFiMatching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiFiMatching.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98BD72E81F04ACB30091B67E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98BD730F1F04ACEC0091B67E /* libSoSoCamSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98BD72E21F04ACB30091B67E = {
+			isa = PBXGroup;
+			children = (
+				98BD72ED1F04ACB30091B67E /* SoSoSDKLatest */,
+				98BD72EC1F04ACB30091B67E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98BD72EC1F04ACB30091B67E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98BD72EB1F04ACB30091B67E /* SoSoSDKLatest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98BD72ED1F04ACB30091B67E /* SoSoSDKLatest */ = {
+			isa = PBXGroup;
+			children = (
+				98BD73051F04ACEC0091B67E /* IPCam.h */,
+				98BD73061F04ACEC0091B67E /* IPCamMgr.h */,
+				98BD73071F04ACEC0091B67E /* IPCamVideoView.h */,
+				98BD73081F04ACEC0091B67E /* libSoSoCamSDK.a */,
+				98BD73091F04ACEC0091B67E /* SoSoCamSDKBundle.Bundle */,
+				98BD730A1F04ACEC0091B67E /* SoundWaveWifiSetting.h */,
+				98BD730B1F04ACEC0091B67E /* Storage.h */,
+				98BD730C1F04ACEC0091B67E /* Util.h */,
+				98BD730D1F04ACEC0091B67E /* WebService.h */,
+				98BD730E1F04ACEC0091B67E /* WiFiMatching.h */,
+			);
+			path = SoSoSDKLatest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98BD72EA1F04ACB30091B67E /* SoSoSDKLatest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98BD73021F04ACB40091B67E /* Build configuration list for PBXNativeTarget "SoSoSDKLatest" */;
+			buildPhases = (
+				98BD72E71F04ACB30091B67E /* Sources */,
+				98BD72E81F04ACB30091B67E /* Frameworks */,
+				98BD72E91F04ACB30091B67E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoSoSDKLatest;
+			productName = SoSoSDKLatest;
+			productReference = 98BD72EB1F04ACB30091B67E /* SoSoSDKLatest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98BD72E31F04ACB30091B67E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = King;
+				TargetAttributes = {
+					98BD72EA1F04ACB30091B67E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 98BD72E61F04ACB30091B67E /* Build configuration list for PBXProject "SoSoSDKLatest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98BD72E21F04ACB30091B67E;
+			productRefGroup = 98BD72EC1F04ACB30091B67E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98BD72EA1F04ACB30091B67E /* SoSoSDKLatest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98BD72E91F04ACB30091B67E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98BD73101F04ACEC0091B67E /* SoSoCamSDKBundle.Bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98BD72E71F04ACB30091B67E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		98BD73001F04ACB40091B67E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		98BD73011F04ACB40091B67E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98BD73031F04ACB40091B67E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SoSoSDKLatest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SoSoSDKLatest",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.King.transitionAnimationzz.SoSoSDKLatest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		98BD73041F04ACB40091B67E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SoSoSDKLatest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SoSoSDKLatest",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.King.transitionAnimationzz.SoSoSDKLatest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98BD72E61F04ACB30091B67E /* Build configuration list for PBXProject "SoSoSDKLatest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98BD73001F04ACB40091B67E /* Debug */,
+				98BD73011F04ACB40091B67E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98BD73021F04ACB40091B67E /* Build configuration list for PBXNativeTarget "SoSoSDKLatest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98BD73031F04ACB40091B67E /* Debug */,
+				98BD73041F04ACB40091B67E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98BD72E31F04ACB30091B67E /* Project object */;
+}
